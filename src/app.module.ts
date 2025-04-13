@@ -15,7 +15,7 @@ import { Todo } from './todo/entities/todo.entity';
       password: process.env.DB_PASSWORD,
       database: process.env.DB_NAME,
       entities: [Todo],
-      synchronize: true, // use false in production
+      synchronize: true,
     }),
     TodoModule,
   ],
